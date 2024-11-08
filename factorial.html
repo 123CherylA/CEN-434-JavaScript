@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sum javascript</title>
+       
+    </head>
+    <body>
+        <p id="result"></p>
+        <script type="text/javascript">
+           function factorial(n){
+            if(n===0){
+                return 1;
+            }else{
+                return n*factorial(n-1);
+
+            }
+            }
+            const a =factorial(81);
+            document.getElementById("result").innerHTML="The factorial is"+a;
+            </script>
+
+    </body>
+</html>

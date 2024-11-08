@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sum javascript</title>
+       </head>
+    <body>
+        <p id="average"></p>
+        <p id="factorial"></p>
+        <p id="combination"></p>
+        <script type="text/javascript">
+            const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            function CalculateAverage(arr){
+                let sum=0;
+                for(let i=0;i<arr.length;i++){
+                    sum+=arr[i];
+                }
+                return sum/arr.length;
+            }
+            const average=CalculateAverage(numbers);
+            document.getElementById("average").innerHTML=" The average is:"+average;
+
+
+            
+           </script>
+
+    </body>
+</html>
